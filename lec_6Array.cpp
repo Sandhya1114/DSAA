@@ -35,8 +35,12 @@ int main(){
     for(int i=0;i<size;i++){
         cin>>num[i];
     }
+    int maximum=getMax(num,size);
+    int minimum=getMin(num,size)
+    // int number = swap(maximum,minimum);
     cout<<"max value is"<<getMax(num,size)<<endl;
-     cout<<"min value is"<<getMin(num,size)<<endl;
-    return 0;
+    cout<<"min value is"<<getMin(num,size)<<endl;
+    // cout<<number;
+   
 
 }
