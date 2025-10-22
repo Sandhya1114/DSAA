@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
-void printName(string noni){
+// pass by value
+// void printName(string noni){
+//     noni[0]='s';
+//     cout<<"hey "<<noni;
+// }
+// pass by refreence
+void printName(string &noni){
+    noni[0]='s';
     cout<<"hey "<<noni;
 }
 int main(){
@@ -62,6 +69,7 @@ int main(){
     string name;
     cin>>name;
     printName(name);
+    cout<<name;
 
      return 0;
 }
